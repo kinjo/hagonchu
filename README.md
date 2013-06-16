@@ -1,7 +1,7 @@
 hagonchu
 ========
 
-A bot @hagonchu.
+A bot @hagonchu
 
 ## Getting Started
 
