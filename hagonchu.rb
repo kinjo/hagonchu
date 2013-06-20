@@ -33,5 +33,6 @@ daemon.track(config.terms) do |status|
   when /(?:\p{Hiragana}|\p{Katakana}|[一-龠々])/
     # Retweet japanese only
     Twitter.retweet(status.id)
+    Twitter.follow(status.user.id)
   end
 end
